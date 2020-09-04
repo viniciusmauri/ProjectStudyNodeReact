@@ -1,0 +1,109 @@
+{
+  "extensions.ignoreRecommendations": true,
+
+  "sync.autoDownload": true,
+  "sync.autoUpload": true,
+  "sync.gist": "b970e0fafc74f90667b8616dff771386",
+
+  "eslint.alwaysShowStatus": true,
+  "eslint.lintTask.enable": true,
+  "eslint.packageManager": "yarn",
+  "eslint.format.enable": true,
+
+  "prettier.requireConfig": true,
+  "prettier.arrowParens": "always",
+  "prettier.configPath": ".prettierrc",
+  "prettier.jsxSingleQuote": true,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.packageManager": "yarn",
+  "prettier.singleQuote": true,
+  "prettier.useTabs": true,
+
+  "gitlens.defaultDateFormat": "DD/MM/YYYY",
+  "gitlens.defaultDateShortFormat": "MMM/D/YY",
+  "gitlens.views.repositories.location": "gitlens",
+  "gitlens.views.fileHistory.location": "gitlens",
+  "gitlens.views.lineHistory.location": "gitlens",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
+
+  "git.confirmSync": false,
+  "git.autofetch": true,
+
+  "terminal.integrated.fontFamily": "monospace",
+
+ "javascript.updateImportsOnFileMove.enabled": "never",
+ "typescript.updateImportsOnFileMove.enabled": "never",
+ "javascript.suggest.autoImports": true,
+ "typescript.suggest.autoImports": true,
+
+ "breadcrumbs.enabled": true,
+
+ "explorer.confirmDragAndDrop": false,
+ "explorer.confirmDelete": false,
+ "explorer.compactFolders": false,
+
+ "emmet.syntaxProfiles": { "javascript": "jsx" },
+ "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+ "workbench.colorTheme": "Omni",
+ "workbench.iconTheme": "material-icon-theme",
+ "workbench.editor.labelFormat": "short",
+
+ "editor.fontFamily": "Fira Code",
+ "editor.formatOnSave": false,
+ "editor.defaultFormatter": "esbenp.prettier-vscode",
+ "editor.parameterHints.enabled": false,
+ "editor.minimap.enabled": false,
+ "editor.fontLigatures": true,
+ "editor.rulers":[110, 130],
+ "editor.mouseWheelZoom": true,
+ "editor.suggestSelection": "first",
+ "editor.renderLineHighLight": "gutter",
+
+ "[javascript]": {
+     "editor.codeActionsOnSave":{
+         "source.fixAll.eslint": true,
+      }
+  },
+
+ "[javascriptreact]": {
+     "editor.codeActionsOnSave":{
+         "source.fixAll.eslint": true,
+      }
+  },
+
+ "[typescript]": {
+      "editor.codeActionsOnSave":{
+          "source.fixAll.eslint": true,
+      }
+  },
+
+ "[typescriptreact]": {
+      "editor.codeActionsOnSave":{
+          "source.fixAll.eslint": true,
+      }
+  },
+
+ "files.associations": {
+      ".sequelizerc": "javascript",
+      ".stylelintrc": "json",
+      ".prettierrc": "json"
+  },
+  "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+  },
+
+  "terminal.integrated.shell.linux": "/bin/zsh",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "[yaml]": {
+      "editor.quickSuggestions": {
+          "other": true,
+          "comments": false,
+          "strings": true
+      }
+  },
+}
